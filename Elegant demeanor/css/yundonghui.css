@@ -1,0 +1,291 @@
+.subheader nav ul li:nth-child(4){background: #5c5c5c;}
+@media screen and (min-width:1000px){	
+	.lunbo{display: none;}
+	.content{
+		width: 100%;
+	}
+	.subcontent{
+		width: 1000px;
+		padding-top: 150px;	
+		display: block;
+		margin: 0 auto;
+	}
+	.subcontent .left,.subcontent .right{float: left;}
+	.subcontent .left{
+		width: 240px;
+		border-right:1px solid #bbb;
+	}
+	.subcontent .left ul li{
+		width: 220px;
+		height: 77px;
+		border-bottom: 3px solid #fff;
+	}
+	.subcontent .left ul li:hover{
+		border-bottom: 3px solid #FA9634;
+	}
+	.subcontent .left ul li:nth-child(1){
+		background: url(../img/junxun-2.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(2){
+		background: url(../img/shixi-2.gif) no-repeat 8px 20px;
+		
+	}
+	.subcontent .left ul li:nth-child(3){
+		background: url(../img/yundong.gif) no-repeat 8px 20px;
+		border-bottom: 3px solid #FA9634;
+	}
+	.subcontent .left ul li:nth-child(4){
+		background: url(../img/shixun-2.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(5){
+		background: url(../img/huaju-2.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(6){
+		background: url(../img/shengdan-2.gif) no-repeat 8px 18px;
+	}
+	.subcontent .left ul li:nth-child(2):hover{
+		background: url(../img/shixi.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(3):hover{
+		background: url(../img/yundong.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(4):hover{
+		background: url(../img/shixun.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(5):hover{
+		background: url(../img/huaju.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(6):hover{
+		background: url(../img/shengdan.gif) no-repeat 8px 18px;
+	}
+	.subcontent .left ul li a{
+		font-size: 24px;
+		height: 80px;
+		line-height: 80px;
+		color: #222;
+		padding-left:60px;
+	}
+	
+	.subcontent .right{
+		width: 694px;
+		margin-left:50px;
+		padding-bottom:222px;
+	}
+	.subcontent .right p{
+		font-size: 16px;
+		line-height: 30px;
+		text-indent: 32px;
+	}
+	.subcontent .right p:nth-child(1){margin-top: 33px;}
+}
+
+@media screen and (min-width:720px) and (max-width:1000px){
+	.lunbo{display: none;}
+	.content{
+		width:98%;
+		padding-left: 1%;	
+		padding-right: 1%;
+	}
+	.subcontent{
+		width:100%;
+		padding-top: 150px;
+		display: block;
+		margin: 0 auto;
+	}
+	.subcontent .left,.subcontent .right{float: left;}
+	.subcontent .left{
+		width: 24%;
+		border-right:1px solid #bbb;
+	}
+	.subcontent .left ul li{
+		width:95%;
+		height: 77px;
+		border-bottom: 3px solid #fff;
+	}
+	.subcontent .left ul li:hover{
+		border-bottom: 3px solid #FA9634;
+	}
+	.subcontent .left ul li:nth-child(1){
+		background: url(../img/junxun-2.gif) no-repeat 8px 20px;
+		
+	}
+	.subcontent .left ul li:nth-child(2){
+		background: url(../img/shixi-2.gif) no-repeat 8px 20px;
+		
+	}
+	.subcontent .left ul li:nth-child(3){
+		background: url(../img/yundong.gif) no-repeat 8px 20px;
+		border-bottom: 3px solid #FA9634;
+	}
+	.subcontent .left ul li:nth-child(4){
+		background: url(../img/shixun-2.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(5){
+		background: url(../img/huaju-2.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(6){
+		background: url(../img/shengdan-2.gif) no-repeat 8px 18px;
+	}
+	.subcontent .left ul li:nth-child(2):hover{
+		background: url(../img/shixi.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(3):hover{
+		background: url(../img/yundong.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(4):hover{
+		background: url(../img/shixun.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(5):hover{
+		background: url(../img/huaju.gif) no-repeat 8px 20px;
+	}
+	.subcontent .left ul li:nth-child(6):hover{
+		background: url(../img/shengdan.gif) no-repeat 8px 18px;
+	}
+	.subcontent .left ul li a{
+		font-size: 20px;
+		height: 80px;
+		line-height: 80px;
+		color: #222;
+		padding-left:60px;
+	}
+	.subcontent .left ul li span{display: none;}
+	.subcontent .right{
+		width:72%;
+		margin-left:3%;
+		padding-bottom:150px;
+	}
+	.subcontent .right p{
+		font-size: 16px;
+		line-height: 30px;
+		text-indent: 32px;
+	}
+	.subcontent .right p:nth-child(1){margin-top: 33px;}
+}
+
+@media screen and (min-width:480px) and (max-width:720px){
+	.content{
+		width:94%;
+		padding-left:3%;	
+		padding-right:3%;
+	}
+	.subcontent{
+		width:100%;	
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.subcontent .left{
+		width:100%;
+	}
+	.subcontent .left ul li img{width: 100%;}
+	.subcontent .left ul li{
+		width:32%;
+		margin-right: 2%;
+		float: left;
+		padding-top:6%;
+	}
+	.subcontent .left ul li:nth-child(1){
+		background: url(../img/junxun-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(2){
+		background: url(../img/shixi-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(3){
+		background: url(../img/yundong.gif) no-repeat center 2.7777%;
+		margin-right: 0;
+	}
+	.subcontent .left ul li:nth-child(4){
+		background: url(../img/shixun-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(5){
+		background: url(../img/huaju-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(6){
+		background: url(../img/shengdan-2.gif) no-repeat center 2.7777%;
+		margin-right: 0;
+	}
+	.subcontent .left ul li a{
+		font-size: 20px;
+		height: 80px;
+		line-height: 80px;
+		color: #222;
+		display: block;
+		text-align: center;
+	}
+	.subcontent .right{
+		width:100%;
+		padding-bottom:100px;
+	}
+	.subcontent .right .slider7{display: none;}
+	.subcontent .right .bx-wrapper{display: none;}	
+	.subcontent .right p{
+		font-size: 16px;
+		line-height: 30px;
+		text-indent: 32px;
+	}
+	.subcontent .right p:nth-child(1){margin-top:20px;}
+}
+@media screen and (max-width:480px){
+	.content{
+		width:94%;
+		padding-left:3%;	
+		padding-right:3%;
+	}
+	.subcontent{
+		width:100%;	
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.subcontent .left{
+		width:100%;
+	}
+	.subcontent .left ul li img{width: 100%;}
+	.subcontent .left ul li{
+		width:32%;
+		margin-right: 2%;
+		float: left;
+		padding-top:11%;
+	}
+	.subcontent .left ul li:nth-child(1){
+		background: url(../img/junxun-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(2){
+		background: url(../img/shixi-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(3){
+		background: url(../img/yundong.gif) no-repeat center 2.7777%;
+		margin-right: 0;
+	}
+	.subcontent .left ul li:nth-child(4){
+		background: url(../img/shixun-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(5){
+		background: url(../img/huaju-2.gif) no-repeat center 2.7777%;
+	}
+	.subcontent .left ul li:nth-child(6){
+		background: url(../img/shengdan-2.gif) no-repeat center 2.7777%;
+		margin-right: 0;
+	}
+	.subcontent .left ul li a{
+		font-size:16px;
+		height:60px;
+		line-height:60px;
+		color: #222;
+		display: block;
+		text-align: center;
+	}
+	.subcontent .left ul li a span{display: none;}
+	.subcontent .right{
+		width:100%;
+		padding-bottom: 40px;
+	}
+	.subcontent .right .slider7{display: none;}
+	.subcontent .right .bx-wrapper{display: none;}	
+	.subcontent .right p{
+		font-size: 16px;
+		line-height: 30px;
+		text-indent: 32px;
+	}
+	.subcontent .right p:nth-child(1){margin-top:20px;}
+}

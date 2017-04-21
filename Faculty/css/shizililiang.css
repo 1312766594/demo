@@ -1,0 +1,220 @@
+.subheader nav ul li:nth-child(6){background: #5c5c5c;}
+@media screen and (min-width:1000px){
+	.content{
+		width: 100%;
+	}
+	.subcontent{
+		width: 1020px;
+		margin: 0 auto;
+		padding-top:80px;
+		
+	}
+	.subcontent h4{
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.subcontent>p{
+		font-size: 24px;
+		margin-top:19px;
+		color: #888888;
+		text-align: center;
+	}
+	.subcontent ul{
+		padding: 57px 10px 0 10px;
+	}
+	.subcontent ul li{
+		width:220px;
+		padding: 0 15px;
+		height: 801px;
+		float: left;
+	}
+	.subcontent ul li div p{
+		color: #888888;
+		line-height: 24px;
+		padding-top: 16px;
+		text-indent: 28px;
+		font-size: 14px;
+	}
+	.subcontent ul li div p span{
+		text-indent: 0;
+		display: block;
+		font-size: 18px;
+		font-weight: bold;
+		color: #888888;
+		margin-top: 5px;
+		
+	}
+}
+@media screen and (min-width:720px) and (max-width:1000px){
+	.content{
+		width:96%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.subcontent{
+		width:100%;
+		margin: 0 auto;
+		padding-top:80px;
+		
+	}
+	.subcontent h4{
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.subcontent>p{
+		font-size: 24px;
+		margin-top:19px;
+		color: #888888;
+		text-align: center;
+	}
+	.subcontent ul{
+		padding: 57px 10px 0 10px;
+	}
+	.subcontent ul li{
+		width:32%;
+		margin-right:2%;
+		height: 801px;
+		float: left;
+	}
+	.subcontent ul li:nth-child(3){margin-right: 0;}
+	.subcontent ul li:nth-child(6){margin-right: 0;}
+	.subcontent ul li:nth-child(9){margin-right: 0;}
+	.subcontent ul li:nth-child(12){margin-right: 0;}
+	.subcontent ul li>img{
+		width: 100%;
+	}
+	.subcontent ul li div p{
+		color: #888888;
+		line-height: 24px;
+		padding-top: 16px;
+		text-indent: 28px;
+		font-size: 14px;
+	}
+	.subcontent ul li div p span{
+		text-indent: 0;
+		display: block;
+		font-size: 18px;
+		font-weight: bold;
+		color: #888888;
+		margin-top: 5px;
+		
+	}
+}
+@media screen and (min-width:480px) and (max-width:720px){
+	.content{
+		width:96%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.subcontent{
+		width:100%;
+		margin: 0 auto;
+		
+	}
+	.subcontent h4{
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.subcontent>p{
+		font-size: 24px;
+		margin-top:19px;
+		color: #888888;
+		text-align: center;
+	}
+	.subcontent ul{
+		padding: 57px 10px 0 10px;
+	}
+	.subcontent ul li{
+		width:32%;
+		margin-right:2%;
+		float: left;
+	}
+	.subcontent ul li:nth-child(3){margin-right: 0;}
+	.subcontent ul li:nth-child(6){margin-right: 0;}
+	.subcontent ul li:nth-child(9){margin-right: 0;}
+	.subcontent ul li:nth-child(12){margin-right: 0;}
+	.subcontent ul li>img{
+		width: 100%;
+	}
+	.subcontent ul li div p{
+		color: #888888;
+		line-height: 24px;
+		padding-top: 16px;
+		text-indent: 28px;
+		font-size: 14px;
+	}
+	.subcontent ul li div p span{
+		text-indent: 0;
+		display: block;
+		font-size: 18px;
+		font-weight: bold;
+		color: #888888;
+		margin-top: 5px;
+		
+	}
+}
+
+@media screen and (max-width:480px){
+	.content{
+		width:96%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.subcontent{
+		width:100%;
+		margin: 0 auto;
+		
+	}
+	.subcontent h4{
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.subcontent>p{
+		font-size: 24px;
+		margin-top:19px;
+		color: #888888;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.subcontent ul li{
+		width:48%;
+		margin-right:4%;
+		float: left;
+		height:800px;
+	}
+	.subcontent ul li:nth-child(2){margin-right: 0;}
+	.subcontent ul li:nth-child(4){margin-right: 0;}
+	.subcontent ul li:nth-child(6){margin-right: 0;}
+	.subcontent ul li:nth-child(8){margin-right: 0;}
+	.subcontent ul li:nth-child(10){margin-right: 0;}
+	.subcontent ul li:nth-child(12){margin-right: 0;}
+	.subcontent ul li>img{
+		width: 100%;
+	}
+	.subcontent ul li div p{
+		color: #888888;
+		line-height: 24px;
+		padding-top: 16px;
+		text-indent: 28px;
+		font-size: 14px;
+	}
+	.subcontent ul li div p span{
+		text-indent: 0;
+		display: block;
+		font-size: 18px;
+		font-weight: bold;
+		color: #888888;
+		margin-top: 5px;
+		
+	}
+}
+
+

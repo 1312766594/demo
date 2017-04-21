@@ -1,0 +1,471 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	position: relative;
+}
+/*header开始*/
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	z-index:100;
+}
+.subheader{
+	width: 1000px;
+	margin: 0 auto;	
+}
+.subheader logo{
+	width: 171px;
+	float:left;
+}
+.subheader logo img{
+	margin-top: 11px;
+}
+.subheader nav{
+	width: 733px;
+	float:right;
+}
+.subheader nav ul li{
+	width:93px;
+	float:left;
+}
+.subheader nav ul li:hover{
+	background: #5c5c5c;
+}
+.subheader nav ul li:nth-child(1){width: 65px; background: #5c5c5c;}
+
+.subheader nav ul li>a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fbfcfe;
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	text-align: center;
+}
+.subheader .pop,.subheader .font,.subheader .ul_2{
+	display: none;
+}
+.lunbo{
+	width:100%;
+	padding-top: 80px;
+}
+.nutter{
+	display: none;
+}
+/*banner开始*/
+.banner{
+	width: 100%;
+}
+.subbanner{
+	width: 1000px;
+	margin: 0 auto;
+}
+.subbanner h2{
+	width: 160px;
+}
+.subbanner h2{
+	font-family:"微软雅黑";
+	font-size: 34px;
+	color: #020808;
+	height: 124px;
+	line-height:124px;
+}
+.subbanner ul{
+	height:80px;
+}
+.subbanner ul li{
+	width: 250px;
+	height:74px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.subbanner ul li h3{
+	width: 90px;
+	margin-left: 105px;
+}
+.subbanner ul li h3>a{
+	font-size: 18px;
+	color: #222222;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+}
+.subbanner ul li p{
+	margin-left: 105px;
+}
+.subbanner ul li>p a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #8a808b;
+	height: 32px;
+	line-height: 32px;
+}
+.subbanner ul li:nth-child(1){background: url(../img/service_1_1.jpg) no-repeat 30px top;}
+.subbanner ul li:nth-child(2){background: url(../img/service_2_1.jpg) no-repeat 30px top;}
+.subbanner ul li:nth-child(3){background: url(../img/service_3_1.jpg) no-repeat 30px top;}
+.subbanner ul li:nth-child(4){background: url(../img/service_4_1.jpg) no-repeat 30px top;}
+.subbanner ul li:hover{
+	border-bottom: 5px solid #fa9634;
+}
+.subbanner ul li:nth-child(1):hover{
+	background: url(../img/service_1_2.jpg) no-repeat 30px top;
+}
+.subbanner ul li:nth-child(2):hover{
+	background: url(../img/service_2_2.jpg) no-repeat 30px top;
+}
+.subbanner ul li:nth-child(3):hover{
+	background: url(../img/service_3_2.jpg) no-repeat 30px top;
+}
+.subbanner ul li:nth-child(4):hover{
+	background: url(../img/service_4_2.jpg) no-repeat 30px top;
+}
+/*theme开始*/
+.theme{
+	width: 100%;
+}
+.subtheme{
+	width: 1000px;
+	margin: 0 auto;
+}
+.subtheme h2{
+	width: 160px;
+}
+.subtheme input{display: none;}
+.subtheme h2{
+	font-size: 34px;
+	color: #000200;
+	height: 124px;
+	line-height: 124px;
+}
+.subtheme ul{
+	border: 1px solid #dddddd; 
+}
+.subtheme ul li{
+	width: 332px;
+	height: 200px;
+	float: left;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+}
+.subtheme ul li:nth-child(1){
+	border-left:0;
+}
+.subtheme ul li:nth-child(4){
+	border-left:0;
+}
+.subtheme ul li:nth-child(7){
+	border-left:0;
+	border-bottom: 0;
+}
+.subtheme ul li:nth-child(8){
+	border-bottom:0;
+}
+.subtheme ul li:nth-child(9){
+	border-bottom:0;
+}
+.subtheme ul li p{
+	padding: 35px 36px 0px 25px;
+	display: none;
+	width: 271px;
+	height: 165px;
+	background: #FA9634;
+	opacity:1;
+	cursor:pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
+.subtheme ul li p a{
+	display: block;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.subtheme ul li p span{
+	font-size: 14px;
+	margin-top: 10px;
+	color: #FFFFFF;
+}
+.subtheme ul li:hover p{
+	display: block;
+}
+/*main开始*/
+.main{
+	width: 100%;
+}
+.submain{
+	width: 1000px;
+	margin: 0 auto;
+}
+.submain h2{
+	width: 1000px;
+	position: relative;
+}
+.submain h2 {
+	font-size: 34px;
+	color: #000200;
+	height: 124px;
+	line-height: 124px;
+}
+.submain span{
+	font-size: 14px;
+	color: #fe9949;
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	right: 1.2%;
+}
+.submain ul li{
+	width: 300px;
+	float: left;
+	margin-right: 50px;
+}
+.submain ul li:nth-child(3){
+	margin-right: 0;
+}
+.submain ul li:nth-child(6){
+	margin-right: 0;
+}
+.submain ul li h3{
+	margin-top: 16px;
+	font-size: 18px;
+	color: #333;
+	line-height: 33px;
+	cursor: pointer;
+	font-weight: normal;
+}
+.submain ul li h3:hover{color: #FA9634;}
+.submain ul li p{
+	font-size: 14px;
+	color: #857e78;
+	line-height: 27px;
+	margin-bottom: 35px;
+}
+.submain ul li img{cursor:pointer;}
+/*list开始*/
+.list{
+	width: 100%;
+}
+.sublist{
+	width: 1000px;
+	margin: 0 auto;
+}
+.sublist h2{
+	width: 160px;
+}
+.sublist h2{
+	font-size: 34px;
+	color: #000200;
+	height: 124px;
+	line-height: 124px;
+}
+.sublist  ul li{
+	float: left;
+	width: 200px;
+	height:200px;
+	position: relative;
+}
+.sublist  ul li .so{
+	display: none;
+	width: 200px;
+	height: 200px;
+}
+.sublist  ul li .so h4{
+	display: block;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-top: 46px;
+	text-align: center;
+}
+.sublist  ul li .so p{
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 22px;
+	text-align: center;
+}
+.sublist  ul li .so a{
+	font-size: 18px;
+	display: block;
+	color: #FFFFFF;
+	margin-top: 22px;
+	text-align: center;
+}
+.sublist  ul li:hover .so{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 0.9;
+	cursor: pointer;
+	background: #FA9634;
+	
+}
+.sublist input{display: none;}
+/*source开始*/
+.source{
+	width: 100%;
+}
+.subsource{
+	width: 1000px;
+	margin: 0 auto;
+}
+.subsource h2{
+	width: 160px;
+}
+.subsource h2{
+	font-size: 34px;
+	color: #000200;
+	height: 124px;
+	line-height: 124px;
+}
+.subsource ul li{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 4px;
+	position: relative;
+}
+.subsource ul li:nth-child(4){
+	margin-right: 0;
+}
+.subsource ul li:nth-child(8){
+	margin-right: 0;
+}
+.subsource ul li:nth-child(12){
+	margin-right: 0;
+}
+.subsource ul li .ko{
+	display: none;
+	width: 243px;
+	height: 200px;	
+}
+.subsource ul li .ko h4{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 51px;
+}
+.subsource ul li .ko p{
+	font-size:18px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top:18px;
+}
+.subsource ul li .ko a{
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+.subsource ul li:hover .ko{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 0.9;
+	cursor: pointer;
+	background:#90C166;
+}
+/*service开始*/
+.service{
+	width: 100%;
+	margin-bottom: 32px;
+}
+.subservice{
+	width: 1000px;
+	margin: 0 auto;
+}
+.subservice h2{
+	width: 160px;
+}
+.subservice h2{
+	font-size: 34px;
+	color: #000200;
+	height: 124px;
+	line-height: 124px;
+}
+.subservice .img img{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+.subservice .img>img:nth-child(6){
+	margin-right: 0;
+}
+.subservice .img .ll img:nth-child(3){
+	margin-right:0;
+}
+.subservice .img .ll img:nth-child(9){
+	margin-right: 0;
+}
+.subservice input{display: none;}
+/*footer开始*/
+footer{
+	width: 100%;
+	background: #333333;
+}
+.subfooter{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 46px;
+}
+.subfooter ul li{
+	float: left;
+	margin-bottom: 58px;
+}
+.subfooter ul li:nth-child(1){
+	width: 244px;
+}
+.subfooter ul li:nth-child(2){
+	width: 245px;
+}
+.subfooter ul li:nth-child(3){
+	width: 245px;
+}
+.subfooter ul li:nth-child(4){
+	width: 266px;
+}
+.subfooter ul li p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 26px;
+}
+.subfooter ul li p span{
+	margin-left:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

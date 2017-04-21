@@ -1,0 +1,53 @@
+@media screen and (max-width:480px){
+.content{
+	width:96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}	
+/*content开始*/
+.subcontent{
+	width:100%;
+	padding-top:30px;
+}
+.subcontent .left{
+	width:100%;
+}
+.subcontent .left ul li{
+	width:50%;
+	height:77px;
+	float: left;
+}
+.subcontent .left ul li:nth-child(1){
+	background: url(../img/xygk_02.jpg) no-repeat 2% center;
+	border-bottom: 3px solid #ffffff;
+}
+.subcontent .left ul li:nth-child(2){
+	background: url(../img/xygk_07.jpg) no-repeat 2% center;
+	border-bottom: 3px solid #ff942d;
+}
+.subcontent .left ul li a{
+	font-size:22px;
+	color: #222;
+	height:80px;
+	line-height:80px;
+	padding-left:75px;
+}
+.subcontent .right{
+	width:100%;
+	padding-bottom:60px;
+	margin-top: 20px;
+}
+.subcontent .right h4{
+	width: 100%;
+	font-size: 18px;
+	color: #FA9634;
+	line-height: 36px;
+}
+.subcontent .right p{
+	width: 100%;
+	font-size: 16px;
+	line-height: 28px;
+	color: #222222;
+}
+
+}

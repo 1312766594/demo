@@ -1,0 +1,18 @@
+$(document).ready(function(){
+	/*自制的小屏下拉菜单*/
+	$("#menu-click").click(function(){
+		$("#menu-total").toggleClass("none");
+	});
+	$("#close").click(function(){
+		$("#menu-total").toggleClass("none");
+	});
+	$("#nnb").click(function(){
+		$(".lo").fadeToggle("slow");
+	});
+	$("#lll").click(function(){
+		$(".ll").fadeToggle("slow");
+	});
+	$("#kkk").click(function(){
+		$(".kk").fadeToggle("slow");
+	});
+});
